@@ -11,6 +11,10 @@ body, body * {
     box-sizing: border-box;
 }
 
+header {
+    width: 100%;
+}
+
 h1.app-name {
     text-align: center;
 }

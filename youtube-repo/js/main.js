@@ -1,7 +1,7 @@
 function Main() {
     var githubService = new GitHubService();
     var btnChangeOrder = document.getElementById('btnChangeOrder');
-    var defaultImg = 'https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png';
+    var defaultImg = './image/Octocat.jpg';
 
     this.onInit = function () {
         githubService.getFunchalSubscriptions(loadDataToContainer);
